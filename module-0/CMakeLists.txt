@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(MyCProject)
+set(CMAKE_C_STANDARD 11)
+add_executable(MyCProject main.c)
+add_executable(class_module-0_CMakeLists class/module-0/CMakeLists.txt)
+add_executable(class_module-0_main class/module-0/main.c)
