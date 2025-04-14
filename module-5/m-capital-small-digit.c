@@ -12,6 +12,7 @@ Only one line containing a character X which will be a capital or small letter o
 Output
 Print a single line contains "IS DIGIT" if X is digit otherwise, print "ALPHA" in the first line followed by a new line that contains "IS CAPITAL" if X is a capital letter and "IS SMALL" if X is a small letter.
  */
+
 #include <stdio.h>
 
 int main()
@@ -28,13 +29,11 @@ int main()
         printf("ALPHA\n");
         if (X >= 65 && X <= 90)
         {
-            printf("IS ALPHA");
+            printf("IS CAPITAL");
         }else if (X >= 97 && X <= 122)
         {
             printf("IS SMALL");
         }
     }
-
-
     return 0;
 }
