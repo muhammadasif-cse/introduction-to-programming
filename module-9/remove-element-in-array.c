@@ -7,30 +7,24 @@ int main()
 
     int arr[N];
 
-
     for (int i = 0; i < N; i++)
     {
         scanf("%d", &arr[i]);
     }
 
-    N += 1;
-    int idx, V;
-    scanf("%d %d", &idx, &V);
+    int idx;
+    scanf("%d", &idx);
 
-    for (int i = N; idx - 1 < i; i--)
+    for (int i = idx; i < N - 1; i++)
     {
-        arr[i] = arr[i - 1];
-        if (idx == i)
-        {
-            arr[i] = V;
-        }
+        arr[i] = arr[i + 1];
     }
+
+    N--;
 
     for (int i = 0; i < N; i++)
     {
         printf("%d ", arr[i]);
     }
-
-
     return 0;
 }
