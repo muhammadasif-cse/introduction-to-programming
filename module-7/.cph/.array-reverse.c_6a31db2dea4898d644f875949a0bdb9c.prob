@@ -1,0 +1,1 @@
+{"name":"Local: array-reverse","url":"e:\\courses\\phitron\\introduction-to-programming\\module-7\\array-reverse.c","tests":[{"id":1746641213181,"input":"5\n1 2 3 4 5","output":"5 4 3 2 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\courses\\phitron\\introduction-to-programming\\module-7\\array-reverse.c","group":"local","local":true}
