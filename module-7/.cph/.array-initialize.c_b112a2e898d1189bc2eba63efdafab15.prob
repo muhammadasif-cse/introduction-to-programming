@@ -1,0 +1,1 @@
+{"name":"Local: array-initialize","url":"e:\\courses\\phitron\\introduction-to-programming\\module-7\\array-initialize.c","tests":[{"id":1746641482578,"input":"","output":"1 3 5 7 9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\courses\\phitron\\introduction-to-programming\\module-7\\array-initialize.c","group":"local","local":true}
