@@ -1,0 +1,1 @@
+{"name":"Local: input-output","url":"e:\\courses\\phitron\\introduction-to-programming\\module-7\\input-output.c","tests":[{"id":1746641022055,"input":"5\n1 2 3 4 5","output":"1 2 3 4 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\courses\\phitron\\introduction-to-programming\\module-7\\input-output.c","group":"local","local":true}
