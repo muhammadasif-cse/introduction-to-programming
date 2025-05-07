@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <string.h>
 
 int main()
 {
@@ -12,12 +12,17 @@ int main()
     char w[10];
     scanf("%s", &w);
     printf("%s\n", w);
+    getchar(); // to consume the newline character left in the buffer
+    // or use a space in the format string of scanf to consume the newline character
 
-    //* multiple word input/output 
+    //* multiple word input/output
     //! Reads up to 99 characters or until a newline is encountered
     char m[100];
     fgets(m, 100, stdin);
     printf("%s", m);
 
+    // char a[100];
+    // gets(a);
+    // printf("%s", a);
     return 0;
 }

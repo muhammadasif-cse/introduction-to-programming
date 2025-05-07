@@ -1,0 +1,6 @@
+{
+    "cmake.ignoreCMakeListsMissing": true,
+    "files.associations": {
+        "null-ক্যারেক্টার.C": "cpp"
+    }
+}
