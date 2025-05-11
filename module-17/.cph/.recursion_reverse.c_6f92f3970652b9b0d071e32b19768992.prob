@@ -1,0 +1,1 @@
+{"name":"Local: recursion_reverse","url":"e:\\courses\\phitron\\introduction-to-programming\\module-17\\recursion_reverse.c","tests":[{"id":1746981854831,"input":"5","output":"5\n4\n3\n2\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\courses\\phitron\\introduction-to-programming\\module-17\\recursion_reverse.c","group":"local","local":true}

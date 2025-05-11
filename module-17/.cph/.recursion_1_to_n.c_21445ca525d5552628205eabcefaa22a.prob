@@ -1,0 +1,1 @@
+{"name":"Local: recursion_1_to_n","url":"e:\\courses\\phitron\\introduction-to-programming\\module-17\\recursion_1_to_n.c","tests":[{"id":1746954277817,"input":"5","output":"1\n2\n3\n4\n5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\courses\\phitron\\introduction-to-programming\\module-17\\recursion_1_to_n.c","group":"local","local":true}
