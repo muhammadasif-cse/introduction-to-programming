@@ -1,0 +1,1 @@
+{"name":"Local: recursion_array","url":"e:\\courses\\phitron\\introduction-to-programming\\module-17\\recursion_array.c","tests":[{"id":1746983808484,"input":"5\n1 2 3 4 5","output":"1 2 3 4 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\courses\\phitron\\introduction-to-programming\\module-17\\recursion_array.c","group":"local","local":true}
