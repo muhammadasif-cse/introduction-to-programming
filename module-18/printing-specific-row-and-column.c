@@ -2,9 +2,7 @@
 
 int main()
 {
-
     int row, col;
-
     scanf("%d %d", &row, &col);
 
     int arr[row][col];
@@ -17,14 +15,22 @@ int main()
         }
     }
 
+    
     for (int i = 0; i < row; i++)
     {
         for (int j = 0; j < col; j++)
         {
-            printf("%d ", arr[i][j]);
+            printf("%d", &arr[i][j]);
         }
-        printf("\n");
     }
+
+    // int specific_row;
+    // scanf("%d", &specific_row);
+
+    // for (int i = 0; i < col; i++)
+    // {
+    //     printf("%d ", arr[specific_row][i]);
+    // }
 
     return 0;
 }
