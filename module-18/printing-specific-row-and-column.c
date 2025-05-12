@@ -15,22 +15,22 @@ int main()
         }
     }
 
-    
+    int specific_row;
+    scanf("%d", &specific_row);
+
+    for (int i = 0; i < col; i++)
+    {
+        printf("row => %d ", arr[specific_row][i]);
+    }
+    printf("\n");
+
+    int specific_col;
+    scanf("%d", &specific_col);
+
     for (int i = 0; i < row; i++)
     {
-        for (int j = 0; j < col; j++)
-        {
-            printf("%d", &arr[i][j]);
-        }
+        printf("col => %d ", arr[i][specific_col]);
     }
-
-    // int specific_row;
-    // scanf("%d", &specific_row);
-
-    // for (int i = 0; i < col; i++)
-    // {
-    //     printf("%d ", arr[specific_row][i]);
-    // }
 
     return 0;
 }
