@@ -20,7 +20,7 @@ int main()
 
     for (int i = 0; i < col; i++)
     {
-        printf("row => %d ", arr[specific_row][i]);
+        printf("%d ", arr[specific_row][i]);
     }
     printf("\n");
 
@@ -29,7 +29,7 @@ int main()
 
     for (int i = 0; i < row; i++)
     {
-        printf("col => %d ", arr[i][specific_col]);
+        printf("%d ", arr[i][specific_col]);
     }
 
     return 0;
